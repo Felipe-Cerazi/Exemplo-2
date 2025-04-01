@@ -51,6 +51,50 @@ console.log(numFloat1.toString());
 let numInt=100;
 console.log(numInt.toString());
 
+//Métodos parte 1
+
+//Length - Verifica o tamanho da string
+
+let frase ="o mundo da tecnologia";
+console.log(frase.length);
+
+//indexOf - Retorna um trecho de um texto
+
+let texto ="Programação Sustentável";
+console.log(texto.indexOf("a"));
+
+//slice - Retorna parte de um texto, apontando o início e o final
+
+let info="Processamento de ponta";
+console.log(info.slice(0,13))
+
+//Operadores aritméticos
+
+const num1 =10;
+const num2 =20;
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+
+//Operadores Lógicos
+
+const num3 =20;
+const num4 =30;
+
+console.log(num3 < num4);
+console.log(num3 < num4 && num4 < 50);
+console.log(num3 > num4 || num4 > num3);
+console.log(num3 == num4 || num4 <= num3);
+
+
+
+
+
+
+
+
+
 
 
 
