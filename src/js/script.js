@@ -135,10 +135,55 @@
 
 // Condição Ternária
 
-let valor2 = 300;
+// let valor2 = 300;
 
-let resultado = valor2 == 300 ? "Certo": "Errado";
-console.log(resultado)
+// let resultado = valor2 == 300 ? "Certo": "Errado";
+// console.log(resultado)
+
+
+//Switch case
+
+// let time ="Palmeiras";
+
+// switch(time){
+//     case "Palmeiras":
+//         console.log("Melhor time")
+//         break;
+//     case "São Paulo":
+//         console.log("Não é um time")
+//         break;
+//     case "Corinthians":
+//         console.log("Barcelona manda abraços")
+//         break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+//Estrutura de laço de repetição
+
+//For
+// for(let i=0;i<=10;i++){
+//     console.log("O valor de I é:", i)
+// }
+
+//While
+
+let w=0
+
+while(w<=10){
+    console.log("O valor de w é",w)
+    w++;
+}
+
+
+//do while
+
+let z= 10;
+
+do{
+    console.log("do while é" ,z)
+    z++;
+}while(z <= 100);
 
 
 
